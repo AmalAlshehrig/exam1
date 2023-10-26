@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.NavBar{
+    background-color: black;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.NavLogo{
+    color: white;
+}
+.navul{
+    color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+.navli{
+    color: white;
+    list-style-type: none;
+    float: left;
+    padding: 1rem;
+}
+.square{
+    width:100px;
+    height: 100px;
+    background-color:blue ;
+    margin: 30px auto;
+    position: absolute;
+    right: 400px;
+    top:170px;
+
+}
+.square1{
+    width:300px;
+    height: 200px;
+    background-color:rgb(255, 0, 255) ;
+    margin: 30px auto;
+    display: flex;
+    align-items: flex-end;
+}
+button{
+    color: white;
+    background-color: blue;
+    border: none;
+    margin: 20;
+    padding: 20;
+}
+.p1{
+    font-size: large;
+    margin-top: 300;
+    top:-500;
+}
+.square2{
+    width:100px;
+    height: 100px;
+    background-color:rgb(0, 34, 255) ;
+    margin: 30px auto;
+    position: absolute;
+    right:600px;
+    top: 40px;
+}
+.square3{
+    width:50px;
+    height: 150px;
+    background-color:rgb(0, 0, 0) ;
+    margin: 30px auto;
+    border-radius: 300;
+    position: absolute;
+    right:350px;
+    top: 110px;
+    
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.footerul1{
+    color: white;
+    list-style-type: none;
+}
+.footerul2{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.text1{
+    position: absolute;
+    top:150px;
+    right: 900px;
+}
